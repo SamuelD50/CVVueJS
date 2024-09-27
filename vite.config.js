@@ -15,6 +15,7 @@ export default defineConfig({
   },
   base: '/CVVueJS/',
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    index: 'docs/index.html',
   }
 })
