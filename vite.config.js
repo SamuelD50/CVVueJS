@@ -10,10 +10,10 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./dist', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: '/CVVueJS/',
+  base: '/dist/',
   build: {
     outDir: 'dist'
   }
