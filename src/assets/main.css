@@ -1,0 +1,17 @@
+.bg-lightGreen {
+  background-color: #F7F4D4
+}
+
+.bg-nightBlue {
+  background-color: #1A237E;
+}
+
+.font-green {
+  color: #B2D732;
+}
+
+.border-green {
+  border: 1.5px solid #B2D732;
+  border-radius: 100%;
+}
+
