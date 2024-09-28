@@ -13,7 +13,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: '/CVVueJS/dist',
+  base: '/CVVueJS/',
   build: {
     outDir: 'dist'
   }
