@@ -15,17 +15,17 @@
     <Header/>
   </header>
 
-  <main class="bg-lightGreen py-4 flex flex-row justify-around flex-wrap">
+  <main class="bg-lightGreen py-4 px-5 flex flex-row justify-around flex-wrap">
 
     
-    <div class="flex flex-col px-10 flex-wrap md:w-1/2 w-full">
+    <div class="flex flex-col flex-wrap md:w-1/2 w-full">
+      <Profile />
       <WorkExperiences />
       <Education />
     </div>
 
-    <div class="flex flex-col px-10 flex-wrap md:w-1/2 w-full">
+    <div class="flex flex-col flex-wrap md:w-1/2 w-full">
       <Skills />
-      <Profile />
       <Interests />
       <Contact/>
     </div>

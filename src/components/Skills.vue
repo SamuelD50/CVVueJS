@@ -11,6 +11,18 @@
         </h2>
     </div>
 
+    
+    <div v-for="skill in skills" :key="skill.skillTitle" class="skill mx-4 mt-4">
+        <h3 class="text-lg font-semibold text-green-500">
+            {{ skill.skillTitle }}
+        </h3>
+        <ul v-if="skill.description" class="text-sm font-semibold" :class="{'grid grid-cols-2': skill.skillTitle === 'Technique'}">
+            <li v-for="(ability, index) in skill.description" :key="index">
+                {{ ability }}
+            </li>
+        </ul>
+    </div>
+    
     <!-- <div v-for="workExperience in workExperiences" :key="workExperience.jobTitle" class="experience mx-4 mt-4">
         <h3 class="text-lg font-semibold text-blue-500">
             {{ workExperience.jobTitle }}
@@ -29,18 +41,6 @@
             </li>
         </ul>
     </div> -->
-
-    <div v-for="skill in skills" :key="skill.skillTitle" class="skill mx-4 mt-4">
-        <h3 class="text-lg font-semibold text-green-500">
-            {{ skill.skillTitle }}
-        </h3>
-        <ul v-if="skill.description" class="text-sm font-semibold" :class="{'grid grid-cols-2': skill.skillTitle === 'Technique'}">
-            <li v-for="(ability, index) in skill.description" :key="index">
-                {{ ability }}
-            </li>
-        </ul>
-    </div>
-
 </template>
 
 <script setup>
