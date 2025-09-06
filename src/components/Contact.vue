@@ -1,10 +1,10 @@
 <template>
     <div class="my-2">
-        <h2 id="contact" class="text-2xl font-bold text-white my-2 mx-2 text-center">
+        <h2 id="contact" class="text-2xl font-bold text-white my-1 mx-2 text-center">
             Contact
         </h2>
 
-        <ul class="flex flex-col items-center gap-1 text-white mx-2">
+        <ul class="flex flex-col items-center text-white mx-2">
             <li class="flex flex-row gap-1">
                 <span>
                     Téléphone : 

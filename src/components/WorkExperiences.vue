@@ -1,7 +1,7 @@
 <template>
 
-    <div class="my-5">
-        <h2 id="workExperiences" class="text-2xl font-bold text-blue-800 my-2">
+    <div class="my-2">
+        <h2 id="workExperiences" class="text-2xl font-bold text-blue-800 my-1">
             Expériences professionnelles
         </h2>
         

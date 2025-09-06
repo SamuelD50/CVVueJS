@@ -16,7 +16,7 @@
   <main class="flex">
     <section class="w-2/5 flex flex-col items-center -mt-28 mx-5 bg-blue-500 rounded-t-full">
       <img class="w-56 aspect-square m-5 rounded-full object-cover" src="./assets/Photo-profil.jpeg" alt="Photo">
-      <ul class="flex flex-col items-center gap-1 my-2 font-medium text-white font-semibold">
+      <ul class="flex flex-col items-center gap-1 font-medium text-white font-semibold">
         <li>
           Sens du relationnel
         </li>
@@ -36,6 +36,7 @@
     <section class="w-3/5">
       <WorkExperiences />
       <Education />
+      <Footer />
     </section>
   </main>
 

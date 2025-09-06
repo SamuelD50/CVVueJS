@@ -4,7 +4,7 @@
             <h1 class="text-4xl font-semibold text-blue-800">
                 Samuel Duflos
             </h1>
-            <span class="text-2xl mt-2 block">
+            <span class="text-2xl mt-1 block">
                 Développeur web
             </span>
         </div>

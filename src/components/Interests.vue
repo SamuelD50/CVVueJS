@@ -1,7 +1,7 @@
 <template>
     
-    <div class="py-2">
-        <h2 id="interests" class="text-2xl font-bold text-white my-2 mx-2 text-center">
+    <div class="my-2">
+        <h2 id="interests" class="text-2xl font-bold text-white my-1 mx-2 text-center">
             Intérêts
         </h2>
         <ul class="flex flex-col items-center gap-1 text-white mx-2">
